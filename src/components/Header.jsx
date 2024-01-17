@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 
 const Header = () => {
-  return (
+  return (<>
     <header className="header-container">
       <img src='brand.png' alt='Brandlogo' />
       <div className="navpart">
@@ -17,6 +17,7 @@ const Header = () => {
         <button className="login-button">Login</button>
       </div>
     </header>
+  </>
   );
 };
 
