@@ -14,7 +14,7 @@ const Footer = () => {
             title: 'Can education flashcard be used for test prepartation? ', content: 'eum iste officiis, quod cupiditate facere fuga necessitatibus natus qui quae ipsa.Natus ducimus iste ab omnis aliquam'
         },
     ];
-    
+
     return (
         <div className="faq">
             <Accordion items={accordionItems} />
